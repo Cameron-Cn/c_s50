@@ -1,5 +1,6 @@
 /* CS50x - Week 2
-Problem Sets - Readability*/
+Problem Sets - Readability
+Cameron */
 
 #include <stdio.h>
 #include <float.h>
@@ -31,8 +32,8 @@ int main(void){
     int sentCount = 1; //last sentence does not have space
 
     for (i = 0; i < l; i++){
-        if (isalpha (sentence[i])){
-        letterCount++;
+        if (isalpha (sentence[i])){  // we can put this all in one 'for' loop, but 
+        letterCount++;               // did not do so in writing
         } 
     } 
     printf("letcount: %d\n", letterCount);
